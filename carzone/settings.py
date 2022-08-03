@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0nf32c=ph(j#z9*!$qx2(t%#iwa+a783h2w^y)a3)y3vput6fc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['smitpatel-car-project.herokuapp.com','*']
+ALLOWED_HOSTS = ['car-zone-project.herokuapp.com','127.0.0.1']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
